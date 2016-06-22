@@ -45,10 +45,17 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Proxy\Theory\ISubject.cs" />
+    <Compile Include="Structural\Proxy\Theory\ProtectionProxy.cs" />
+    <Compile Include="Structural\Proxy\Theory\Proxy.cs" />
+    <Compile Include="Structural\Proxy\Theory\ProxyClient.cs" />
+    <Compile Include="Structural\Proxy\Theory\Subject.cs" />
+    <Compile Include="Structural\Proxy\Theory\SubjectAccessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

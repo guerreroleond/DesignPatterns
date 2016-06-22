@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DesignPatterns.Structural.Proxy.Theory;
 
 namespace DesignPatterns
 {
@@ -10,6 +6,8 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
+            ProxyClient client = new ProxyClient();
+            client.Do();
         }
     }
 }

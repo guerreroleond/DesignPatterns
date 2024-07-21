@@ -1,1 +1,1 @@
-Testing Azure Functions + Webhooks
+Testing Azure Functions + Webhooks (Strongly typed) 

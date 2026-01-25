@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dotnet",
+			"task": "build /Users/dguerrero/Documents/Dev/Algorithms/CodingTests/CodingTests.csproj",
+			"file": "/Users/dguerrero/Documents/Dev/Algorithms/CodingTests/CodingTests.csproj",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "dotnet: build /Users/dguerrero/Documents/Dev/Algorithms/CodingTests/CodingTests.csproj"
+		},
+		{
+			"type": "dotnet",
+			"task": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "dotnet: build"
+		}
+	]
+}
